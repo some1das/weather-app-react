@@ -1,0 +1,45 @@
+.mainContainer{
+    background-color: aqua;
+    height: 100vh;
+    width: 100%;
+    background: url('./images/desktop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title{
+    color:white;
+    text-align: center;
+}
+.title2{
+    color: white;
+    text-align: center;
+}
+.search{
+    display: block;
+    margin: 0 auto;
+    height: 5vh;
+    width: 29vw;
+    border-radius: 4px;
+    border-color:green;
+    
+   opacity: 0.6;
+}
+.city{
+    height: 230px;
+    width: 400px;
+    background-color:lightblue;
+    display: block;
+    margin: 0 auto;
+    border-radius: 6px;
+    
+}
+.city .city-name{
+    color:green;
+    text-align: center;
+    font-size: 50px;
+
+}
+.city .city-temprature{
+    text-align: center;
+    font-size: 60px;
+}
